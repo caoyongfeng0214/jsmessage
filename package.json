@@ -1,0 +1,23 @@
+{
+  "name": "jsmessage",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript package for sending messages and handling events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "message"
+  ],
+  "author": "CYF <caoyongfeng0214@gmail.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/caoyongfeng0214/jsmessage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caoyongfeng0214/jsmessage"
+  },
+  "dependencies": {
+  }
+}
