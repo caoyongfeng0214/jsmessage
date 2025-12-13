@@ -1,28 +1,28 @@
-# jsMessage
+# js-msgX
 
-`jsMessage` A lightweight JavaScript package for sending messages and handling events.
+`js-msgX` A lightweight JavaScript package for sending messages and handling events.
 
 ## Installation
 
 ```bash
-npm install jsmessage
+npm install js-msgx
 ```
 
 ## Quick Start
 
 ```javascript
-import jsMessage from 'jsmessage';
+import msgX from 'js-msgx';
 
 // Send message
-jsMessage.send('changedName', { id: 9527, newName: '哈·没内衣' });
+msgX.send('changedName', { id: 9527, newName: '哈·没内衣' });
 
 // Listen for messages
-jsMessage.on('changedName', (data) => {
+msgX.on('changedName', (data) => {
    console.log(data); // { id: 9527, newName: '哈·没内衣' }
 });
 
 // Listen for messages（Stop listening after one message is received）
-jsMessage.once('changedName', (data) => {
+msgX.once('changedName', (data) => {
    console.log(data); // { id: 9527, newName: '哈·没内衣' }
 });
 ```

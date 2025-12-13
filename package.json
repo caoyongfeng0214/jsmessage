@@ -1,5 +1,5 @@
 {
-  "name": "jsmessage",
+  "name": "js-msgx",
   "version": "1.0.0",
   "description": "A lightweight JavaScript package for sending messages and handling events.",
   "main": "index.js",
@@ -9,14 +9,15 @@
   "keywords": [
     "javascript",
     "js",
-    "message"
+    "message",
+    "msgx"
   ],
   "author": "CYF <caoyongfeng0214@gmail.com>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/caoyongfeng0214/jsmessage",
+  "homepage": "https://github.com/caoyongfeng0214/js-msgx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caoyongfeng0214/jsmessage"
+    "url": "git+https://github.com/caoyongfeng0214/js-msgx"
   },
   "dependencies": {
   }
